@@ -2,15 +2,15 @@ import React from 'react';
 
 import { IoBarChartSharp } from 'react-icons/io5';
 import { MdQueryStats } from 'react-icons/md';
-import { FaWpforms } from 'react-icons/fa';
+import { BiBookAdd } from "react-icons/bi";
 import { ImProfile } from 'react-icons/im';
 import { MdAdminPanelSettings } from 'react-icons/md';
 
 const links = [
     {
-        text: 'add job',
+        text: 'add book',
         path: '.',
-        icon: <FaWpforms />
+        icon: <BiBookAdd />
     },
     {
         text: 'all jobs',

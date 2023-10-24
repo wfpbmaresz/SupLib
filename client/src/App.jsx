@@ -6,7 +6,7 @@ import {
   Login,
   DashboardLayout,
   Error,
-  AddJob,
+  AddBook,
   Stats,
   AllJobs,
   Profile,
@@ -48,7 +48,7 @@ const router = createBrowserRouter([
         children:[
           {
             index: true,
-            element: <AddJob />,
+            element: <AddBook />,
           },
           {
             path: 'stats',
